@@ -1,6 +1,0 @@
----
-- hosts: localhost
-  sudo: yes
-  tasks:
-    - name: Debug that fool
-      debug: msg="Debug that fool"
