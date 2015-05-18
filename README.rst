@@ -12,4 +12,4 @@ Initial Steps
 You need to install some simple packages then you can enjoy a fully built workstation in no time::
 
   dnf install -y ansible
-  sudo ansible-pull -U https://github.com/geogdog/workstation -C develop -d /etc/ansible
+  sudo ansible-pull -U https://github.com/geogdog/workstation -C develop -d ~/.ansible/workstation/ -i ~/.ansible/workstation/inventory
