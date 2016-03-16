@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  sudo: yes
+  become: yes
   tasks:
     - name: Debug that fool
       debug: msg="Debug that fool"
